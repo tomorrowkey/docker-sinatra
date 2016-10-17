@@ -3,7 +3,7 @@ MAINTAINER tomorrowkey
 
 RUN gem install bundler
 RUN gem install foreman
-COPY . /app
+COPY ./app /app
 WORKDIR /app
 RUN bundle
 
